@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial, serif;
+    font-size:small;
+}
+
+#logo{
+    width: 272px;
+    height: 92px;
+    background: url('googleLogo.png') top left no-repeat;
+    text-indent: -9999px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.centre{
+    margin: 0 auto;
+    width: 582px;
+    text-align: center;
+}
+input[type="search"]{
+    display: block;
+    width: 582px;
+    padding: 13px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: solid 1px rgb(193, 194, 191);
+    margin: 30px 0 15px ;
+}
+input[type="search"]:hover{
+    border-color: rgb(227, 228, 227);
+    border: groove;
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    margin: 15px 5px 25px;
+    border-radius: 3px;
+    font-family: arial, serif;
+    font-size: 14px;
+    background:rgb(244, 245, 243);
+    border: none;
+    color:#5F6368;
+}
+p{
+    font-family: arial, serif;
+    font-size: small;
+    text-decoration: none;}
+p a{
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+}
+
+#signIn{
+    padding: 6px 8px;
+    font-family: Arial, serif;
+    font-size:14px;
+    background: #4285f4;
+    color: white;
+    border: solid 1px #4285f4;
+    font-weight: 600;
+    margin-right: 30px;
+}
+#header ul li :link,
+#header ul li :visited{
+    color: black;
+    text-decoration: none;
+}
+#header ul li :hover{
+    text-decoration: underline;
+}
+#header ul li{
+    display: inline;
+    margin: 5px;
+}
+
+#header{
+    text-align: right;
+}
+footer{
+    background:rgb(244, 245, 243);
+    width: 1364px;
+    padding:15px 0;
+    border: solid 1px rgb(206, 207, 205);
+    position: absolute;
+    bottom: 0;
+}
+footer li{
+    display: inline;
+    padding-left: 20px;
+    text-decoration: none;
+}
+#right ul{
+    padding-right:20px;
+}
+
+#left{
+    width: 50%;
+    float:left;
+}
+
+#right{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.clearfix{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+#left ul li :link, 
+#right ul li :link{
+    text-decoration: none;
+    color: #5F6368;
+}
+#left ul li :visited, 
+#right ul li :visited{
+color: #5F6368;;
+}
+
+.upperFooter{
+    background:rgb(244, 245, 243);
+    padding: 15px 0 15px 20px;
+    border: solid 1px rgb(206, 207, 205);
+    position: relative;
+    width: 1364;
+    bottom: -145px;
+    display: block;
+    color: #5F6368;
+    font-size:14px;
+}
